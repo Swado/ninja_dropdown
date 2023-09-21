@@ -1,8 +1,8 @@
 
 # NinjaDropdown 🐱‍👤
 
-[![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
-[![License: MIT][license_badge]][license_link]
+[![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 NinjaDropdown is a highly customisable dropdown intended for flexibilty while implementing dropdowns.
 It enables you to set custom shapes and properties to various dropdown components. Thus enancing look
