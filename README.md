@@ -12,7 +12,7 @@ and feel of complete app.
 ## Demo 😁
 
 Following are examples of how Ninja Dropdown can be used.
-<img src="screenshots\NinjaDropdown.png" alt="drawing"/>
+<img src="https://github.com/Swado/ninja_dropdown/raw/master/screenshots/NinjaDropdown.png" alt="drawing" width="700"/>
 
 
 ## Code Snippets 🐱‍💻
