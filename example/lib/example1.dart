@@ -16,43 +16,37 @@ class _Example1State extends State<Example1> {
       "Banana",
       "Apple",
       "kiwi",
-      "Orangesddsfavvasdvsdvdsvadvasdva",
+      "Orange",
       "Grapes",
       "Custard apple"
     ];
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
-      body: Container(
-          child: Column(
+      body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Center(
             child: NinjaDropdown(
-                isArrowEnabled: true,
-                menuBorderRadius:
-                    const BorderRadius.horizontal(left: Radius.circular(10)),
-                spacing: 20,
-                hintText: "hell0",
-                itemList: fruitList,
-                onTap: (int val) {},
-                isTrailingIcon: true,
-                onOpenTrailingIcon: Icons.grade,
-                onCloseTrailingIcon: Icons.cloud,
-                textBoxDecoration: const BoxDecoration(
-                    color: Colors.amber,
-                    gradient:
-                        LinearGradient(colors: [Colors.amber, Colors.red]),
-                    shape: BoxShape.rectangle,
-                    borderRadius: BorderRadius.all(Radius.circular(10)))),
+              hintText: "hell0",
+              itemList: fruitList,
+              onTap: (int val) {},
+              onOpenTrailingIcon: Icons.grade,
+              onCloseTrailingIcon: Icons.cloud,
+              // menuBorderRadius: const BorderRadius.only(
+              //     topLeft: Radius.circular(50),
+              //     bottomRight: Radius.circular(50)),
+              // textBoxDecoration: const BoxDecoration(
+              //     color: Colors.amber,
+              //     gradient: RadialGradient(
+              //         colors: [Colors.white, Colors.blue], radius: 5),
+              //     shape: BoxShape.rectangle,
+              //     borderRadius: BorderRadius.all(Radius.circular(10))),
+              // menuColor: Colors.blue[100]!,
+              // selectedItemColor: Colors.blue[300]!,
+            ),
           ),
-          DropdownMenu(
-              label: const Text("help"),
-              hintText: "hello",
-              dropdownMenuEntries: fruitList
-                  .map((e) => DropdownMenuEntry(value: e, label: e))
-                  .toList())
         ],
-      )),
+      ),
     );
   }
 }
